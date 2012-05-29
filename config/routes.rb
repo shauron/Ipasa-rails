@@ -1,4 +1,6 @@
 Ipasa::Application.routes.draw do
+  resources :photos
+
   resources :properties
 
   # The priority is based upon order of creation:
